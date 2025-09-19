@@ -17,6 +17,17 @@ public class App extends ScriptableObject {
         defineFunctionProperties(new String[] { "getContext", "runOnUiThread" }, App.class, 0);
     }
 
+    @JSFunction
+    public Context getContext() {
+        return KakaoTalkListener.ctx;
+    }
+
+    @JSFunction
+    public void runOnUiThread(final Function func) {
+
+    }
+
+
     @Override
     public String getClassName() {
         return "App";
