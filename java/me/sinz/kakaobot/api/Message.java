@@ -8,12 +8,12 @@ public class Message extends ScriptableObject {
 
     private ScriptableObject scope;
 
-    String room, content, packageName, channelId, logId;
-    Author author;
-    boolean isGroupChat;
-    Replier replier;
-    Image image;
-    int userId;
+    private String room, content, packageName, channelId, logId;
+    private Author author;
+    private boolean isGroupChat;
+    private Replier replier;
+    private Image image;
+    private int userId;
 
     public Message(ScriptableObject scope, String room, String msg, Author author, boolean isGroupChat, Replier replier,
                    Image ImageDB, String packageName, int userId, String chatId, String chatLogId) {
