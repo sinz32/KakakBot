@@ -7,6 +7,9 @@
 ## Event
 - [ ] MESSAGE
 
+## App
+- [ ] getContext, runOnUiThread
+
 ## Bot
 - [ ] addListener, on
 - [ ] removeListener, off
